@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Final_Fantasy_VII_-_Electric_de_Chocobo_by_w3sp %281%29.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Final_Fantasy_VII_-_Electric_de_Chocobo_by_w3sp (1).wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Figgle" Version="0.4.0" />
+    <PackageReference Include="NAudio" Version="1.10.0" />
+    <PackageReference Include="Pastel" Version="1.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Level1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
